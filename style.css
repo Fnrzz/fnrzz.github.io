@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  height: 3000px;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+@media screen and (max-width: 994px) {
+  section {
+    padding-top: 2rem;
+  }
+
+  /* Navbar */
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-brand {
+    font-size: 10px;
+  }
+  .nav-item {
+    font-size: 8px;
+  }
+  .nav-item .btn {
+    font-size: 8px;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 10px;
+  }
+  /* Akhir Navbar */
+
+  /* Headinng */
+  #heading h6 {
+    font-size: 6px;
+  }
+  #heading h3 {
+    font-size: 11px;
+  }
+  #heading p {
+    font-size: 5px;
+  }
+  #heading .btn {
+    margin-top: -1rem;
+    font-size: 5px;
+  }
+  #heading img {
+    width: 164px;
+    height: 123px;
+  }
+  /* Akhir Heading */
+
+  /* About Me */
+  #about p {
+    font-size: 5px;
+  }
+  #about h4 {
+    font-size: 7px;
+  }
+  #about img {
+    width: 2px;
+    height: 40px;
+  }
+  /* Akhir About Me */
+
+  /* Projects */
+  #projects h4 {
+    font-size: 7px;
+  }
+  #projects .card {
+    width: 160px;
+  }
+  #projects .card-title {
+    font-size: 6px;
+  }
+  #projects .card-text {
+    font-size: 6px;
+  }
+  /* Akhir Projects */
+}
