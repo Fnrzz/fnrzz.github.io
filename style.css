@@ -80,4 +80,16 @@ section {
     font-size: 8px;
   }
   /* Akhir Projects */
+
+  /* Skills */
+  #skills h4{
+    font-size: 15px;
+  }
+  #skills img{
+    width: 90px;
+  }
+  #skills h6{
+    font-size: 10px;
+  }
+  /* Akhir Skills */
 }
