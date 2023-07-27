@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.aboutme p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.aboutme .card-title {
+  color: #f98530;
+}
+
+#aboutMe {
+  background-color: #f98530;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.btn-orange {
+  border-color: #f98530;
+  border-width: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 75%;
+  color: #f98530;
+}
+
+.btn-orange:hover {
+  background-color: #f98530;
+  color: white;
+}
+
+#techStack h4 {
+  width: 80%;
+}
+
+#contactMe h4 {
+  width: 80%;
+}
+
+#footer {
+  background-color: #f98530;
+  color: white;
+}
+#footer .container {
+  height: 300px;
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+#footer h4 {
+  font-size: medium;
+}
+
+.nav-btn {
+  border-width: 2px;
+  border-color: #f98530;
+  color: #f98530;
+}
+
+.nav-btn:hover {
+  background-color: #f98530;
+  color: white;
+}
+
+.btn-white {
+  border-color: white;
+  width: 50px;
+  color: white;
+}
+.btn-white:hover {
+  background-color: white;
+  color: #f98530;
+}
+
+@media screen and (min-width: 994px) {
+  .aboutme p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #projectsMe small {
+    width: 50%;
+  }
+
+  .btn-orange {
+    width: 20%;
+  }
+
+  #techStack h4 {
+    width: 50%;
+  }
+
+  #footer h4 {
+    font-size: larger;
+  }
+
+  #footer h4 {
+    width: 30%;
+  }
+
+  #footer .container {
+    height: 450px;
+  }
+}
